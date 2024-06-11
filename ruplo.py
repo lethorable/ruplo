@@ -7,7 +7,7 @@ from scipy.signal import savgol_filter
 import pandas as pd
 
 
-
+#NB! Konvertering til rnx sker med kommandoen rinex-decompress. Installeres med pip install hatanaka
 
 parser = argparse.ArgumentParser(description="Extract quality parameters")
 parser.add_argument("input_file", help="Input file")
