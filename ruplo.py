@@ -20,9 +20,9 @@ parser.add_argument("-o",dest="output file",help="Enter png to output, if omitte
 
 
 
-def moving_avg(x, n):
-    cumsum = np.cumsum(np.insert(x, 0, 0))
-    return (cumsum[n:] - cumsum[:-n]) / float(n)
+#def moving_avg(x, n):
+#    cumsum = np.cumsum(np.insert(x, 0, 0))
+#    return (cumsum[n:] - cumsum[:-n]) / float(n)
 
 
 def main(args):
