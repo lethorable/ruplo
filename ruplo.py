@@ -6,8 +6,8 @@ import pandas as pd
 from scipy.signal import savgol_filter
 import pandas as pd
 
-
-#NB! Konvertering til rnx sker med kommandoen cd ... Installeres med pip install hatanaka
+#NB! Udpakning fra gz sker med 7zip
+#NB! Konvertering til rnx sker med kommandoen rinex-decompress. Installeres med pip install hatanaka
 
 parser = argparse.ArgumentParser(description="Plot quality parameters from Rinex (C1S)")
 parser.add_argument("input_file", help="Input file")
